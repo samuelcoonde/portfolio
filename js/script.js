@@ -1,3 +1,4 @@
+// Animação para o ícone das linguagens de programação
 document.querySelectorAll('.icones').forEach(img => {
     // Evento para quando o mouse ficar em cima do ícone
     img.addEventListener('mouseenter', () => {
@@ -27,6 +28,7 @@ document.querySelectorAll('.icones').forEach(img => {
     });
 });
 
+// Animação para as opções do menu de navegação
 document.querySelectorAll('#menu_nav li').forEach(li => {
     li.addEventListener('mouseenter', () => {
         li.style.transform = 'scale(1.1)';
