@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Open+Sans&display=swap');
+
+:root{
+    --corfundo-secundaria: #D6D6D6;
+    --corfundo: #F5F5F5;
+    --bordas: #BDBDBD;
+}
+
+header{
+    background-color: var(--corfundo-secundaria);
+    padding: 1px;
+}
+
+#menu_nav{
+    list-style: none;
+    display: flex; 
+    justify-content: center;
+    gap: 20px;
+}
+
+#menu_nav li{
+    background-color: var(--corfundo-secundaria);
+    border: solid 2px;
+    border-radius: 10px;
+    padding: 3px;
+    text-align: center;
+}
+
+#menu_nav a{
+    text-decoration: none;
+    color: #000000;
+    padding-left: 15px;
+}
+
+section {
+    margin-top: 60px;   
+    margin-bottom: 60px; 
+}
+
+#meu_nome{
+    font-size: 50px;
+}
+
+.div_icones_infos{
+    display: flex;
+    justify-content: center; /* centraliza horizontalmente */
+    background-color: var(--corfundo-secundaria);
+    padding: 10px;
+    margin: 0 auto; /* centraliza a div na tela */
+    width: 300px;
+}
+
+.div_imagens {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px; /* espaço entre as imagens */
+    justify-items: center; /* centraliza cada imagem na coluna */
+    width: 500px;
+    margin: 0 auto; /* centraliza a div na página */
+}
+
+.div_graduacao_unip{
+    display: flex;
+    background-color: var(--corfundo-secundaria);
+    padding: 10px;
+    margin: 0 auto; /* centraliza a div na tela */
+    width: 500px;
+    border: solid 2px;
+    border-radius: 10px;
+    border-color: var(--bordas);
+}
+
+.certificacoes div{
+    display: flex;
+    align-items: center;
+    gap: 1px;
+    margin: 1px;
+    padding-left: 250px;
+}
+
+.certificacoes img{
+    margin: 70px;
+}
+
+#projetos{
+    list-style: none;
+    display: flex; 
+    justify-content: center;
+    gap: 20px;
+}
+
+#projetos li{
+    background-color: var(--corfundo-secundaria);
+    border: solid 2px;
+    border-color: var(--bordas);
+    border-radius: 10px;
+    padding: 3px;
+    text-align: center;
+    width: 50em;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: var(--corfundo);
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2{
+    text-align: center;
+    color: #000000;
+    font-size: 30px;
+}
+
+a{
+    display: inline-block;
+    margin-right: 15px;
+}
+
+p{
+    text-align: center;
+}
+
+img{
+    display: block;
+    margin: 0 auto;
+}
+
+ul{
+    text-align: center;
+    list-style-position: inside;
+    list-style-type: none;
+}
+
+footer{
+    background-color: var(--corfundo-secundaria);
+    text-align: center;
+    padding: 20px;
+}
