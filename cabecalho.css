@@ -1,0 +1,44 @@
+header{
+    background-image: url('img/FundoHeader.png');
+    background-size: cover;
+    padding: 1px;
+}
+
+/* Menu de navegação */
+#menu_nav{
+    list-style: none;
+    display: flex; 
+    justify-content: center;
+    gap: 20px;
+}
+
+#menu_nav li{
+    border: solid 2px;
+    border-radius: 10px;
+    padding: 3px;
+    text-align: center;
+}
+
+#menu_nav a{
+    text-decoration: none;
+    color: #000000;
+    padding-left: 15px;
+}
+
+#meu_nome{
+    font-size: 50px;
+}
+
+/* Div da parte dos ícones e escrita para colocar o mouse em cima */
+.div_icones_infos{
+    display: flex;
+    justify-content: center; /* centraliza horizontalmente */
+    padding: 10px;
+    margin: 0 auto; /* centraliza a div na tela */
+    width: 300px;
+}
+
+header p{
+    font-size: 10px;
+    text-align: center;
+}

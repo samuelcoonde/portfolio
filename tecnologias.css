@@ -1,0 +1,8 @@
+.div_imagens {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px; /* espaço entre as imagens */
+    justify-items: center; /* centraliza cada imagem na coluna */
+    width: 500px;
+    margin: 0 auto; /* centraliza a div na página */
+}

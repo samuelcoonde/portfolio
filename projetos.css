@@ -1,0 +1,16 @@
+#projetos{
+    list-style: none;
+    display: flex; 
+    justify-content: center;
+    gap: 20px;
+}
+
+#projetos li{
+    background-color: var(--corfundo-secundaria);
+    border: solid 2px;
+    border-color: var(--bordas);
+    border-radius: 10px;
+    padding: 3px;
+    text-align: center;
+    width: 50em;
+}
