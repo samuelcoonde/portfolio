@@ -29,6 +29,7 @@ h1, h2{
     font-size: 30px;
 }
 
+/* fazendo com que todos os links fiquem um do lado do outro */
 a{
     display: inline-block;
     margin-right: 15px;

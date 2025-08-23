@@ -24,10 +24,6 @@
     font-weight: 100;
 }
 
-#curso_java img{
-    margin: 0;
-}
-
 #curso_bradesco{
     margin: 0 auto;
     display: flex;
@@ -43,7 +39,6 @@
 }
 
 #curso_bradesco p{
-    text-align: left;
     font-weight: 100;
 }
 

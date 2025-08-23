@@ -1,24 +1,31 @@
 header{
-    background-image: url('img/FundoHeader.png');
+    background-image: url('../img/FundoHeaderMatrix.png');
     background-size: cover;
     padding: 1px;
 }
 
 /* Menu de navegação */
 #menu_nav{
-    list-style: none;
+    list-style: none; /* tirando o tópico da lista */
+
+    /* contralizando os items da lista */
     display: flex; 
     justify-content: center;
+
+    /* espaço entre as opções do menu nav */
     gap: 20px;
 }
 
+/* estilizando cada item da lista */
 #menu_nav li{
-    border: solid 2px;
     border-radius: 10px;
     padding: 3px;
-    text-align: center;
+    /* cores para dar um efeito de embaçado no botão do nav bar */
+    background-color: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(8px);
 }
 
+/* estilizando os links da lista do nav bar */
 #menu_nav a{
     text-decoration: none;
     color: #000000;
@@ -31,13 +38,15 @@ header{
 
 /* Div da parte dos ícones e escrita para colocar o mouse em cima */
 .div_icones_infos{
+    /* deixando os items da lista um do lado do outro */
     display: flex;
-    justify-content: center; /* centraliza horizontalmente */
+    justify-content: center;
     padding: 10px;
     margin: 0 auto; /* centraliza a div na tela */
     width: 300px;
 }
 
+/* escrita de dica para deixar o mouse em cima dos ícones */
 header p{
     font-size: 10px;
     text-align: center;

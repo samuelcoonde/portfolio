@@ -4,13 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="certificacoes.css">
-    <link rel="stylesheet" href="cabecalho.css">
-    <link rel="stylesheet" href="formacao.css">
-    <link rel="stylesheet" href="projetos.css">
-    <link rel="stylesheet" href="tecnologias.css">
-    <title>Curriculum vitae</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/certificacoes.css">
+    <link rel="stylesheet" href="css/cabecalho.css">
+    <link rel="stylesheet" href="css/formacao.css">
+    <link rel="stylesheet" href="css/projetos.css">
+    <link rel="stylesheet" href="css/tecnologias.css">
+    <link rel="stylesheet" href="css/profissional.css">
+    <title>Samuel Conde</title>
 </head>
 
 <body>
@@ -23,7 +24,7 @@
                     <li><a href="#sub_formacao">Formação</a></li>
                     <li><a href="#sub_certificacao">Certificações</a></li>
                     <li><a href="#sub_projetos">Projetos</a></li>
-                    <li><a href="#sub_tecnologias">Tecnologias conhecidas</a></li>
+                    <li><a href="#sub_tecnologias">Tecnologias</a></li>
                     <li><a href="#sub_historico_profissional">Histórico profissional</a></li>
                 </ul>
             </nav>
@@ -53,14 +54,16 @@
         <!--Objetivo-->
         <section class="objetivo">
             <h2 id="sub_objetivo">Objetivos</h2>
-            <p>Busco uma oportunidade como desenvolvedor backend, <br>
-                aplicando os conhecimentos adquiridos em projetos
-                acadêmicos. <br>
-                Atualmente, estudo Java com Spring Boot para criação e manipulação de APIs, <br>com o objetivo de
-                aprofundar
-                meus conhecimentos <br>
-                e ingressar no mercado de desenvolvimento de software.
-            </p>
+            <div class="texto_objetivo">
+                <p>Busco uma oportunidade como desenvolvedor backend, <br>
+                    aplicando os conhecimentos adquiridos em projetos
+                    acadêmicos. <br>
+                    Atualmente, estudo Java com Spring Boot para criação e manipulação de APIs, <br>com o objetivo de
+                    aprofundar
+                    meus conhecimentos <br>
+                    e ingressar no mercado de desenvolvimento de software.
+                </p>
+            </div>
         </section>
 
         <!--Formação-->
@@ -110,7 +113,7 @@
             <h2 id="sub_projetos">Projetos</h2>
             <ul id="projetos">
                 <li>Participação no desenvolvimento de um sistema de gerenciamento de chamados de suporte técnico<br>
-                    <a href="https://github.com/VieiraPedroN/Tecn-Point">
+                    <a href="https://github.com/Tech-Solutions-Group/Tecn-Point">
                         <img src="img/icons8-link-64.png" width="30px" class="icones"
                             title="Repositório do projeto"></img>
                     </a>
@@ -139,20 +142,26 @@
 
         <section class="historico_profissional">
             <h2 id="sub_historico_profissional">Histórico profissional</h2>
-            <p id="cargo_prof">Estagiário - Assistente do OED (Orientador de Educação Digital)<br></p>
-            <p>
-                Realização de apoio direto ao OED nas atividades de suporte tecnológico da escola, <br>
-                com formatação e configuração dos computadores, auxílio no diagnóstico e solução de falhas nos
-                equipamentos, <br>
-                além de atendimento e orientação aos alunos no uso dos computadores e recursos digitais.
-            </p>
+            <details>
+                <summary>
+                    <strong>
+                        Estagiário - Assistente do OED (Orientador de Educação Digital)
+                    </strong>
+                </summary>
+                <p id="desc_Estagirio_Oed">
+                    Realização de apoio direto ao OED nas atividades de suporte tecnológico da escola, <br>
+                    com formatação e configuração dos computadores, auxílio no diagnóstico e solução de falhas nos
+                    equipamentos,
+                    além de atendimento e orientação aos alunos no uso dos computadores e recursos digitais.
+                </p>
+            </details>
         </section>
     </main>
 
     <footer>
-        <p class="paragrafo-footer">&copyTodos os direitos reservados</p>
+        <p class="paragrafo-footer">&copy Todos os direitos reservados</p>
     </footer>
-    <script src="script.js"></script>
+    <script src="js/script.js"></script>
 </body>
 
 </html>
